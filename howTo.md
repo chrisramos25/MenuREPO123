@@ -2,7 +2,7 @@
 
 # 1. Stage the new file
 `git add howTo.md` or 
-`git add`
+`git add -A` or `git add .`
 
 # 2. Commit the staged file with a message
 `git commit` or 
