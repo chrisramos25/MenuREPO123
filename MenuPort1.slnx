@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/" />
+  <Project Path="MenuPort1/MenuPort1.vcxproj" Id="3c517479-c7a4-4ccf-a312-cd52eec83576" />
+</Solution>
