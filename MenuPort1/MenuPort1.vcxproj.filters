@@ -24,12 +24,18 @@
     <ClCompile Include="rockPaper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="resume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="guessGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="rockPaper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resumePlaying.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
