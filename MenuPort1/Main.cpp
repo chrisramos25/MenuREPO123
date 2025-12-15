@@ -1,5 +1,6 @@
 #include <iostream>
 #include "guessGame.h"
+#include "rockPaper.h"
 
 using namespace std;
 
@@ -11,20 +12,22 @@ int main() {
     cout << "1) Number Guessing Game\n";
     cout << "2) Rock Paper Scissors\n";
     cout << "3) Dice Game\n";
-    cout << "\nEnter your choice: ";
+    cout << "\nEnter your choice: \n";
 
-    cin >> game;
+    cin  >> game;
+    cout << '\n';
 
     switch (game) {
     case 1:
-        cout << "You choose Number Guessing Game\n";
+        cout << "You choose NUMBER GUESSING GAME\n";
         playGuessingGame();
         break;
     case 2:
-        cout << "You choose Rock Paper Scissors\n";
+        cout << "You choose ROCK PAPER SCISSORS\n";
+        playRockPaper();
         break;
     case 3:
-        cout << "You choose Dice Game\n";
+        cout << "You choose DICE GAME\n";
         break;
     }
 

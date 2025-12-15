@@ -21,9 +21,15 @@
     <ClCompile Include="guessGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="rockPaper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="guessGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rockPaper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

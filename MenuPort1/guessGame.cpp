@@ -7,11 +7,18 @@ using namespace std;
 
 void playGuessingGame() {
 
-	char resume;
+	//char resume;
 
-    cout << "GUESSING GAME STARTED...";
-	cout << "\nPress any KEY then Enter to continue.";
-	cin >> resume;
+
+	cout << "\nPress any KEY then Enter to continue. ";
+
+	//cin >> resume;
+	char choice;
+	do {
+		cout << "Do you want to continue? (y/n):";
+		cin >> choice;
+	} while (choice == 'y');
+
 
 
 
@@ -34,6 +41,4 @@ void playGuessingGame() {
 
 	cout << "You got it!\n";
 	cout << "It took you " << attempts << " attempts";
-
-
 }

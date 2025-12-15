@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="guessGame.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="rockPaper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="guessGame.h" />
+    <ClInclude Include="rockPaper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
